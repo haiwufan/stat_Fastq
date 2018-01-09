@@ -255,8 +255,6 @@ class Read{
         if(maxLen<len){
             maxLen=len;
         }
-        ReadCount++;
-        BaseCount+=len;
         for(int i=0;i<ch.length;i++){
             if(ch[i]=='G'||ch[i]=='C'){
                 GC+=1;
